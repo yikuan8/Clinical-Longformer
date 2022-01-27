@@ -6,12 +6,13 @@
 We initialized Clinical-Longformer from the pre-trained weights of the base version of Longformer. The pre-training process was distributed in parallel to 6 32GB Tesla V100 GPUs. FP16 precision was enabled to accelerate training. We pre-trained Clinical-Longformer for 200,000 steps with batch size of 6×3. The learning rates were 3e-5 for both models. The entire pre-training process took more than 2 weeks. 
 
 ### Usage
-Load the model directly from Transformers:
+You can oad the model directly from Transformers:
 ```
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 tokenizer = AutoTokenizer.from_pretrained("yikuan8/Clinical-Longformer", use_auth_token=True)
 model = AutoModelForMaskedLM.from_pretrained("yikuan8/Clinical-Longformer", use_auth_token=True)
 ```
+Here[https://huggingface.co/yikuan8/Clinical-Longformer] is the homepage of our model on HuggingFace model hub.
 
 If you find our implementation helps, please consider citing this :)
 ```
