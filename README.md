@@ -16,13 +16,11 @@ model = AutoModelForMaskedLM.from_pretrained("yikuan8/Clinical-Longformer", use_
 
 If you find our implementation helps, please consider citing this :)
 ```
-@inproceedings{li2020comparison,
-  title={A comparison of pre-trained vision-and-language models for multimodal representation learning across medical images and reports},
-  author={Li, Yikuan and Wang, Hanyin and Luo, Yuan},
-  booktitle={2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
-  pages={1999--2004},
-  year={2020},
-  organization={IEEE}
+@article{li2022clinicallongformer,
+  title={Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences},
+  author={Li, Yikuan and Wehbe, Ramsey and Ahmad, Faraz and Wang, Hanyin and Luo, Yuan},
+  journal={arXiv preprint arXiv:2201.11838},
+  year={2022}
 }
 ```
 
