@@ -15,6 +15,7 @@ model = AutoModelForMaskedLM.from_pretrained("yikuan8/Clinical-Longformer")
 ```
 [Here](https://huggingface.co/yikuan8/Clinical-Longformer) is the homepage of our model on HuggingFace model hub.
 
+### Citing
 If you find our implementation helps, please consider citing this :)
 ```
 @article{li2022clinicallongformer,
